@@ -19,4 +19,14 @@
     <servlet-name>TestServlet</servlet-name>
     <url-pattern>/TestServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>StudentControllerServlet</display-name>
+    <servlet-name>StudentControllerServlet</servlet-name>
+    <servlet-class>jdbc.StudentControllerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentControllerServlet</servlet-name>
+    <url-pattern>/StudentControllerServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
